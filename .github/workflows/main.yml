@@ -69,4 +69,4 @@ jobs:
           sudo docker pull rkutdn/infra
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 rkutdn/infra_actions 
+          sudo docker run --rm -d -p 5000:5000 rkutdn/infra
